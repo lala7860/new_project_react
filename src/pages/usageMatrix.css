@@ -1,0 +1,100 @@
+#usage-matrix{
+    background-color: white;
+
+}
+
+table{
+    width: 100%;
+    border: 1px solid rgb(3, 1, 34);
+    color: rgb(2, 1, 26);
+    background-color: #f5f5f5;
+      border-radius: 10px;
+}
+form{
+    display: flex;
+    padding: 10px 100px;
+}
+.date_left{
+    
+    padding: 10px 200px;
+}
+.go{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.go>input{
+    padding: 8px 20px;
+    border-radius: 8px;
+    background: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    font-style: bold;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.filter>input{
+    padding: 8px 20px;
+    border-radius: 8px;
+    background: red;
+    font-style: bold;
+}
+
+input[type="date"]::-webkit-clear-button {
+  font-size: 18px;
+  height: 30px;
+  position: relative;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+  height: 28px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  font-size: 15px;
+}
+/*  */
+
+.date_left{
+    padding: 10px 10px;
+    
+}
+th, td{
+    padding: 6px 8px;
+    text-align: left;
+  
+    
+}
+td{
+    color:green;
+}
+.cen{
+    font-size: larger;
+    text-align: center;
+}
+
+
+input[type="date"]{
+    /* background-color: rgb(155, 67, 104); */
+    font-family: "Roboto Mono", monospace;
+    color:aliceblue;
+    font-size: 18px;
+    border: 2px(rgb(0, 0, 0));
+    outline: none;
+    border-radius: 5px;
+   
+     
+}
+::-webkit-calender-picker-indicator{
+    background-color: rgb(42, 8, 163);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+#text>h4{
+    color: rgba(61, 60, 60, 0.664);
+    font-style: oblique;
+}
